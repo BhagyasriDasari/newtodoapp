@@ -1,6 +1,3 @@
-/* App.css */
-
-/* Apply background to the entire screen */
 body {
   margin: 0;
   padding: 0;
@@ -14,24 +11,23 @@ body {
                                     indigo, 
                                     violet);
   background-size: cover;
-  min-height: 100vh; /* Ensure the background covers the entire viewport height */
+  min-height: 100vh; 
 }
 
 .container {
   text-align: center;
   margin: 20px auto;
   padding: 20px;
-  background-image: linear-gradient(to right, #5e8afa,#fd76db); /* White background with some opacity for contrast */
-  border-radius: 8px; /* Optional: add rounded corners for better aesthetics */
-  max-width: 800px; /* Optional: limit the container width */
+  background-image: linear-gradient(to right, #5e8afa,#fd76db); 
+  border-radius: 8px;
+  max-width: 800px; 
 }
 
 h1 {
-  color: #333; /* Set a color that contrasts well with the background */
+  color: #333; 
   margin-bottom: 20px;
 }
 
-/* Ensure form elements and buttons have consistent styling */
 form {
   margin-bottom: 20px;
   display: flex;
