@@ -1,38 +1,84 @@
-.App {
+/* App.css */
+
+/* Apply background to the entire screen */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, 
+                                    red, 
+                                    orange, 
+                                    yellow, 
+                                    green, 
+                                    blue, 
+                                    indigo, 
+                                    violet);
+  background-size: cover;
+  min-height: 100vh; /* Ensure the background covers the entire viewport height */
+}
+
+.container {
   text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: linear-gradient(to right, #5e8afa,#fd76db); /* White background with some opacity for contrast */
+  border-radius: 8px; /* Optional: add rounded corners for better aesthetics */
+  max-width: 800px; /* Optional: limit the container width */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #333; /* Set a color that contrasts well with the background */
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Ensure form elements and buttons have consistent styling */
+form {
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-image: linear-gradient(to right, rgb(27, 251, 109), yellow);
+  color: #170c69;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9a2121;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -1,0 +1,43 @@
+h3 {
+    color: #260228;
+  }
+  
+  form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-image: linear-gradient(to right,rgb(245, 202, 154),rgb(206, 115, 237));
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, rgb(157, 132, 250),rgb(10, 208, 135));
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    padding: 5px;
+    border-bottom: 1px solid #dddddd;
+  }
+  
